@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 
 function Skills() {
     const technicalSkills = [
-        'JavaScript (ES6+)', 'React', 'React Router', 'HTML5 & CSS3', 'Flexbox & CSS Grid', 'Git & GitHub', 'Netlify Deployment'
+        'JavaScript (ES6+)', 'React', 'HTML5 & CSS3', 'Flexbox & CSS Grid', 'Git & GitHub', 'Netlify Deployment'
     ];
 
     return (
