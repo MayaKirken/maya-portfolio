@@ -1,0 +1,153 @@
+/* Projects Section Styles */
+.projects-section {
+    padding: 100px 24px;
+    background-color: #ffffff;
+}
+
+.projects-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Headings */
+
+.section-title {
+    text-align: center;
+}
+
+.projects-subtitle {
+    font-size: 1.1rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+/* The Project Grid System */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+/* Individual Project Card Architecture */
+.project-card {
+    background-color: #fafbfc;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease box-shadow 0.25s ease;
+    display: table;
+    width: 100%;
+}
+
+/* Interactive card elevation lift on hover */
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Image Container & Formatting */
+.project-image-wrapper {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-bottom: 1px solid #e1e4e8;
+    background-color: #eaeaea;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 0.40s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.04);
+}
+
+/* Card Text Inner Content Wrapper */
+.project-content {
+    padding: 28px;
+}
+
+.project-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.project-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444444;
+    margin-bottom: 24px;
+    height: 72px;
+    overflow: hidden;
+}
+
+/* Tech Badges (Tags) */
+.project-tags {
+    margin-bottom: 30px;
+    background-color: #f1f3f5;
+    color: #495057;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Call-To-Action Dynamic Buttons */
+.project-links {
+    display: block;
+}
+
+.project-links .btn {
+    display: inline-block;
+    width: calc(50% - 8px);
+    padding: 11px 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.project-links .btn-primary {
+    margin-right: 16px;
+}
+
+/* View Site Button (Tech Accent Color */
+.btn-primary {
+    background-color: #0070f3;
+    color: #ffffff;
+    border: 1px solid #0070f3;
+}
+
+.btn-primary:hover {
+    background-color: #0051b3;
+    border-color: #0051b3;
+}
+
+/* View Code Button (Clean Outline Border Style) */
+.btn-secondary {
+    background-color: transparent;
+    color: #555555;
+    border: 1px solid #cccccc;
+}
+
+.btn-secondary:hover {
+    color: #111111;
+    border-color: #111111;
+    background-color: #f8f9fa;
+}
