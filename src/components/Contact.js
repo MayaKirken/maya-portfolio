@@ -15,7 +15,7 @@ const Contact = () => {
 
 const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:, formData');
+    console.log('Form submitted:', formData);
 }
 
 return (
@@ -26,7 +26,7 @@ return (
                 Have an exciting project or opportunity? Let's build something great together.
             </p>
 
-            <form className="contact-form" onsubmit={handleSubmit}>
+            <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input 
