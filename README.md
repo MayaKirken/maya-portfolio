@@ -24,7 +24,7 @@ To run this project locally, clone the repository and execute the development se
 
 ```bash
 # Clone the repository
-git clone https://github.com/MayaKirken/maya-portfolio
+git clone https://github.com/MayaKirken/maya-portfolio.git
 
 # Install project dependencies
 npm install
